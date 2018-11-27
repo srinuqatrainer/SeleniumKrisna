@@ -1,0 +1,23 @@
+<suite name="NewTours Application" parallel="tests">
+
+  <test name="LogIn">
+    <classes>
+       <class name="com.DataDriven.NewTours_LogInTest"/>
+    </classes>
+ </test>
+ 
+ 
+   <test name="NewTours_UserRegistration">
+    <classes>
+       <class name="com.DataDriven.NewTours_NewUserRegistration_TestData"/>
+    </classes>
+ </test>
+ 
+ 
+ <test name="POM">
+    <classes>
+       <class name="com.POM.NewTours_HomePageTesting"/>
+    </classes>
+ </test>
+ 
+</suite>

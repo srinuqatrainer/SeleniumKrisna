@@ -1,0 +1,17 @@
+package com.POM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class WelcomeMercuryTours
+{
+
+	/*WebElement signOn=driver.findElement(By.linkText("SIGN-ON"));
+	signOn.click(); */
+	
+	@FindBy(linkText="SIGN-ON")
+	WebElement signOn;
+	
+	
+}

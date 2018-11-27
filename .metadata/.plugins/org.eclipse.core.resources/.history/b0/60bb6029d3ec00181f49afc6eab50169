@@ -1,0 +1,12 @@
+package com.POM;
+
+import org.openqa.selenium.WebElement;
+
+public class WelcomeMercuryTours
+{
+
+	WebElement signOn=driver.findElement(By.linkText("SIGN-ON"));
+	signOn.click();
+	
+	
+}
